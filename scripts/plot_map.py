@@ -123,7 +123,7 @@ def getImageCluster(lon_deg, lat_deg, delta_long, delta_lat, zoom, style,
     return Cluster
 
 
-def plot_map(plt, bounds, zoom, style, imgsavepath='./map_tiles',
+def plot_map(plt, bounds, zoom, style, imgsavepath=r'E:\GIS_Learning\data\maptileimg',
              printlog=False, apikey='', access_token='', styleid='dark'):
     try:
         os.makedirs(imgsavepath, exist_ok=True)
