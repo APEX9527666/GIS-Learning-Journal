@@ -1,3 +1,6 @@
 data/
 .ipynb_checkpoints/
 __pycache__/
+/scripts/CSharp/CS_Practice2_ShapeArea/.vs
+/scripts/CSharp/CS_Practice2_ShapeArea/obj
+/scripts/CSharp/CS_Practice2_ShapeArea/bin
