@@ -1,0 +1,44 @@
+# =========================
+# Visual Studio / .NET 忽略规则
+# =========================
+
+# 忽略编译生成的文件夹
+[Bb]in/
+[Oo]bj/
+
+# 忽略 Visual Studio 隐藏缓存文件夹
+.vs/
+
+# 忽略用户特定的文件
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# 忽略编译出的产物
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+*.dll
+*.exe
+*.pdb
+*.mdb
+
+# 忽略 NuGet 包缓存
+*.nupkg
+**/packages/*
+!**/packages/build/
+*.nuget.props
+*.nuget.targets
+
+# 忽略 Rider / VS Code 的配置（如果你以后用别的编辑器）
+.idea/
+.vscode/
+
+# 忽略 macOS 系统文件（防止别人用Mac传垃圾上来）
+.DS_Store
